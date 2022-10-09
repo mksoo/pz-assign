@@ -39,3 +39,7 @@
   - two-layer unidirectional LSTM으로 구성된 conductor를 통과시켜 vector c를 만듬
   - 다시, fully-connected layer + tanh activation function 을 통과시킨 후,
   - decoder + softmax를 통과시켜 output을 도출해내는 방식
+  
+ 
+# 리뷰
+- 과제 진행시, 문의 사항이 있을 때 이메일로 문의 드리면 답변 주신다고 했는데, 따로 답변이 없더군요. 주말 또는 공휴일 중 과제 진행시 답변이 안될 수도 있는 점을 공지해주시면 감사하겠습니다.
