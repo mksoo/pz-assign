@@ -3,8 +3,8 @@
 # tensorflow
 ## 실행 코드
 - 데이터 전처리: python data_prepro.py --input_dir data\groove --recursive
-- 모델링: --config=groovae_4bar --run_dir=ckpt --mode=train --examples_path=data\train.tfrecord
-- 샘플링: --config=groovae_4bar --checkpoint_file=ckpt\groovae_4bar.tar --mode=sample --num_outputs=5 --output_dir=generated
+- 모델링: python model-train.py --config=groovae_4bar --run_dir=ckpt --mode=train --examples_path=data\train.tfrecord
+- 샘플링: python model_generate.py --config=groovae_4bar --checkpoint_file=ckpt\groovae_4bar.tar --mode=sample --num_outputs=5 --output_dir=generated
 
 ## 1. 데이터 전처리 
  - https://github.com/magenta/magenta/blob/main/magenta/models/music_vae/preprocess_tfrecord.py
